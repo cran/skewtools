@@ -1,0 +1,15 @@
+#exportPattern("^[[:alpha:]]+")
+importFrom("graphics", plot)
+#importFrom("graphics", lines)
+
+export(
+	"AICgrowth",
+	"boot.var",
+	"conf.im",
+	"entropy.skew",
+	"HNL.skew",
+	"infl.growth",
+	"jn.var",
+	"search.nu"
+)
+

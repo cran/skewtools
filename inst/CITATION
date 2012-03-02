@@ -1,0 +1,20 @@
+citHeader("To cite the skewtools package in publications use:")
+
+if(!exists("meta") || is.null(meta)) meta <- packageDescription("skewtools")
+
+citEntry(entry="manual",
+	title = paste("{R} package \\texttt{skewtools}: ",
+	"Tools for analyze Skew-Elliptical distributions and related models (version ", meta$Version, ")", sep=""),
+	author = personList(as.person("J. Contreras-Reyes")),
+address = "Instituto de Fomento Pesquero, Valparaiso, Chile",
+year = substr(meta$Date, 1, 4),
+url = "http://cran.r-project.org/web/packages/skewtools",
+textVersion = 
+paste("Contreras-Reyes J. (", substr(meta$Date, 1, 4), "). ",
+"R package 'skewtools': Tools for analyze Skew-Elliptical distributions and related models", " (version ", meta$Version, "). ",
+"URL http://cran.r-project.org/web/packages/skewtools",
+sep="")
+)
+
+
+ 
