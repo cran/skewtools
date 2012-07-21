@@ -23,7 +23,7 @@ Estimation of parameters are provided by the functions \code{\link{mst.fit}} (Sk
 }
 \references{
 Arellano-Valle, R. B., Contreras-Reyes, J. E., Genton, M. G. (2012). Shannon Entropy and Mutual Information for Multivariate
-Skew-Elliptical Distributions. \emph{Scandinavian Journal of Statistics}, doi: 10.1111/j.1467-9469.2011.00774.x.
+Skew-Elliptical Distributions. \emph{Scand. J. Stat.}, doi: 10.1111/j.1467-9469.2011.00774.x.
 
 Javier, W. R., Gupta, A. K. (2009). Mutual information for certain multivariate distributions. \emph{Far East
 J. Theor. Stat.}, 29, 39-51.
@@ -35,7 +35,6 @@ Javier E. Contreras-Reyes
 \code{\link{mst.fit}}, \code{\link{msn.fit}}
 }
 \examples{
-require(sn)
 data(OzoneStgo)
 data1=OzoneStgo[,3:9]
 
@@ -60,4 +59,5 @@ Hxy = entropy.skew(data1[1:100,],"ST")$H
 Hx + Hy - Hxy
 }
 \keyword{entropy}
+\keyword{information}
 \keyword{skewtools}

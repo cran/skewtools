@@ -5,8 +5,8 @@
 Local Influence Analysis
 }
 \description{
-Diagnostic the outliers of Heteroscedastic Nonlinear Regression Growth models using Local Influence Analysis of Cook
-with curvature correction by Poon and Poon
+Diagnostic the influential observations of Heteroscedastic Nonlinear Regression Growth models using Local Influence Analysis of Cook
+with curvature correction
 }
 \usage{
 infl.growth(y, x, model, plot.it = TRUE)

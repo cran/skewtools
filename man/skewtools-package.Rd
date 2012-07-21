@@ -40,11 +40,13 @@ Maintainer: Javier E. Contreras-Reyes <javier.contreras@ifop.cl>
 Akaike, H. (1974). A new look at the statistical model identification. \emph{IEEE T. Automat. Contr.}, 19, 6, 716-723.
 
 Arellano-Valle, R. B., Contreras-Reyes, J. E., Genton, M. G. (2012). Shannon Entropy and Mutual Information for Multivariate
-Skew-Elliptical Distributions. \emph{Scandinavian Journal of Statistics}, doi: 10.1111/j.1467-9469.2011.00774.x.
+Skew-Elliptical Distributions. \emph{Scand. J. Stat.}, doi: 10.1111/j.1467-9469.2011.00774.x.
 
 Burnham, K. P., Anderson, D.R. (2002). \emph{Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach}, 2nd ed. Springer-Verlag.
 
 Basso, R. M., Lachos, V. H., Barbosa, C. R., Ghosh, P., (2010). Robust mixture modeling based on scale mixtures of skew-normal distributions. \emph{Comput. Stat. Data An.}, 54, 12, 2926-2941.
+
+Contreras-Reyes, J.E., Arellano-Valle, R.B. (2012). Kullback-Leibler divergence measure for Multivariate Skew-Normal Distributions. Pre-print.
 
 Cook, R. D., (1986). Assessment of local influence (with discussion). \emph{ J. R. Stat. Soc. Ser. B}, 48, 2, 133-169.Efron, B., Tibshirani, R., J. (1993). \emph{ An Introduction to the Bootstrap}. Chapman & Hall/CRC, Monographs on Statistics & Applied Probability.
 

@@ -1,6 +1,4 @@
-#exportPattern("^[[:alpha:]]+")
 importFrom("graphics", plot)
-#importFrom("graphics", lines)
 
 export(
 	"AICgrowth",
@@ -9,7 +7,9 @@ export(
 	"entropy.skew",
 	"HNL.skew",
 	"infl.growth",
+	"Jsn.test",
 	"jn.var",
+	"KL.sn",
 	"search.nu"
 )
 
